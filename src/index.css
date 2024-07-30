@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* Colores principales */
+  --color-primary: #663399;
+  --color-secondary: #FF6B6B;
+  --color-accent: #4ECDC4;
+  --color-light: #F7F7F7;
+  --color-dark: #0f0f0f;
+
+  /* Variaciones del color primario */
+  --color-primary-light: #8A4FCD;
+  --color-primary-dark: #4A2570;
+
+  /* Variaciones del color secundario */
+  --color-secondary-light: #FF9B9B;
+  --color-secondary-dark: #E64A4A;
+
+  /* Variaciones del color de acento */
+  --color-accent-light: #7EDCD4;
+  --color-accent-dark: #3A9D95;
+
+  /* Variaciones de los colores neutros */
+  --color-light-gray: #E0E0E0;
+  --color-medium-gray: #9E9E9E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-light);
+}
