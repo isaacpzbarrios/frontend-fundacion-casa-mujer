@@ -1,10 +1,8 @@
 import React from "react";
 import {
   FaFacebook,
-  FaGithub,
   FaInstagram,
   FaTwitter,
-  FaTwitch,
 } from "react-icons/fa";
 
 const sections = [
@@ -32,7 +30,7 @@ const items = [
   { name: "Twitter", icon: FaTwitter, link: "https://twitter.com/" },
 ];
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="w-full mt-24 bg-[#0f0f0f] text-gray-300 py-y px-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">

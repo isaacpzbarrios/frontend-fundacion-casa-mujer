@@ -22,7 +22,7 @@ const InstagramFeed = () => {
 
   return (
     <section className="container mx-auto p-4">
-      <h2 className="text-5xl font-bold text-black mb-4">
+      <h2 className="text-4xl font-bold text-black mb-4">
         Síguenos en Instagram
       </h2>
 
@@ -31,7 +31,7 @@ const InstagramFeed = () => {
           <FaInstagram className="text-white text-4xl" />
         </div>
         <span className="text-lg font-semibold text-[#E64A4A] hover:text-[#8A4FCD] cursor-pointer">
-          <a target="_blank" className="text-3xl" href="https://www.instagram.com/casadelamujerbaq/">
+          <a target="_blank" className="text-2xl" href="https://www.instagram.com/casadelamujerbaq/">
             @casadelamujerbaq
           </a>
         </span>

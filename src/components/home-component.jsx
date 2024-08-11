@@ -114,7 +114,7 @@ function Home() {
               Este es un texto descriptivo para la sección. Puedes agregar aquí
               cualquier contenido que desees mostrar sobre la imagen de fondo.
             </p>
-          </div>  
+          </div>
         </div>
       </section>
 
